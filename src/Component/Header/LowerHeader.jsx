@@ -1,6 +1,6 @@
 // import React from 'react'
 import { IoMenuOutline } from "react-icons/io5";
-import classes from "./Header.module.css";
+import classes from "./headers.module.css";
 const LowerHeader = () => {
   return (
     <div className={classes.lower__container}>
