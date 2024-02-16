@@ -1,7 +1,7 @@
 
 import  Categoryinfos  from './CategoryAll.jsx';
 import CategoryCard from "./CategoryCard";
-import classes from './Category.module.css';
+import classes from './categories.module.css';
 const Category = () => {
   return (
     <>

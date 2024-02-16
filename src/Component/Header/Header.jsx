@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import classes from "./Header.module.css";
+import classes from "./headers.module.css";
 import { FaSearch} from "react-icons/fa";
 import { TfiShoppingCart } from "react-icons/tfi";
 import LowerHeader from "./LowerHeader";

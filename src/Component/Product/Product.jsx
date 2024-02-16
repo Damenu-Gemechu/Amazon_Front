@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
 import axios from 'axios'
 import ProductCard from './ProductCard'
-import classes from  './Product.module.css'
+import classes from  './products.module.css'
 const Product = () => {
   const [product, setProduct] = useState()
   const[isLoading,setIsLoading]=useState(false)

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-import classes from "./Category.module.css";
+import classes from "./categories.module.css";
 
 const CategoryCard = ({ data }) => {
   //console.log(data)

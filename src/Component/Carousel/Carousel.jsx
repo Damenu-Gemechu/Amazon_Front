@@ -1,9 +1,9 @@
 import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
 import imgData from "./img/data";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import * as classes from "./Carousel.Module.css";
+import * as classes from "./carousels.Module.css";
 
-const Carouselp = () => {
+const Carousel = () => {
   return (
     <div>
       <ResponsiveCarousel
@@ -20,5 +20,5 @@ const Carouselp = () => {
   );
 };
 
-export default Carouselp;
+export default Carousel;
 

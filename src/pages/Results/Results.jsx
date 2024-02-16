@@ -6,7 +6,7 @@ import axios from "axios";
 import { productURL } from "../../Api/endpoint";
 import { useEffect, useState } from "react";
 import ProductCard from "../../Component/Product/ProductCard";
-import classes from './Results.module.css';
+import classes from './result.module.css';
 
 const Results = () => {
   const [results, setResults] = useState();
